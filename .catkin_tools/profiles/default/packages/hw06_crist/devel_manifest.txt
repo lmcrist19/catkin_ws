@@ -1,0 +1,5 @@
+hw06_crist
+/home/lo/catkin_ws/devel/.private/hw06_crist/cmake.lock /home/lo/catkin_ws/devel/./cmake.lock
+/home/lo/catkin_ws/devel/.private/hw06_crist/share/hw06_crist/cmake/hw06_cristConfig-version.cmake /home/lo/catkin_ws/devel/share/hw06_crist/cmake/hw06_cristConfig-version.cmake
+/home/lo/catkin_ws/devel/.private/hw06_crist/share/hw06_crist/cmake/hw06_cristConfig.cmake /home/lo/catkin_ws/devel/share/hw06_crist/cmake/hw06_cristConfig.cmake
+/home/lo/catkin_ws/devel/.private/hw06_crist/lib/pkgconfig/hw06_crist.pc /home/lo/catkin_ws/devel/lib/pkgconfig/hw06_crist.pc

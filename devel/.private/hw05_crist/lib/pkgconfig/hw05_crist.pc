@@ -1,0 +1,8 @@
+prefix=/home/lo/catkin_ws/devel/.private/hw05_crist
+
+Name: hw05_crist
+Description: Description of hw05_crist
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

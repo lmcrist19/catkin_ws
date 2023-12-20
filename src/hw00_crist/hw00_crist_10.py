@@ -1,0 +1,5 @@
+print('Probmlem 10 - Create list between two integers')
+frst = int(input('Enter first number: '))
+scnd = int(input('Enter second number: '))
+lst = list(range(frst, scnd + 1))
+print(f'List: {lst}')

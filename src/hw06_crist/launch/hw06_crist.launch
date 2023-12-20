@@ -1,0 +1,39 @@
+<launch>
+  <!-- Load map -->
+  <param name="map_dir" value="$(find gazelle_sim_barrel_course)/map" />
+  <rosparam command="load"
+            file="$(find gazelle_sim_barrel_course)/map/barrel_course.yaml" />
+
+  <!-- Load robot -->
+  <rosparam command="load"
+            file="$(find gazelle_sim)/robot/basic_differential_circ.yaml" />
+
+  <!-- Gazelle Sim -->
+  <include file="$(find gazelle_sim)/launch/gazelle_sim.launch">
+    <arg name="show_rviz" value="false" />
+    <arg name="show_steering" default="false" />
+    <arg name="show_image_view" default="false" />
+    <arg name="show_dynamic_reconfigure" default="true" />
+  </include>
+  
+  <!-- Set the joystick parameter --> 
+  <param name="joy_node/dev" value="/dev/input/js2" />
+
+  <!-- Set joystick mapping parameters -->
+  <param name="joy_reporter_node/speed_axis"  value="4" />
+  <param name="joy_reporter_node/steer_axis"  value="0" />
+  <param name="joy_reporter_node/spd_up_btn"  value="3" />
+  <param name="joy_reporter_node/spd_dwn_btn" value="0" />
+  <param name="joy_reporter_node/yaw_up_btn"  value="1" />
+  <param name="joy_reporter_node/yaw_dwn_btn" value="2" /> 
+
+  <!-- Launch the joy node -->
+  <node pkg="joy" type="joy_node" name="joy_node" output="screen" />
+   
+  <!-- Launch joystick reporter node -->
+  <node pkg="hw06_crist" type="joy_reporter.py" name="joy_reporter_node" output="screen" />
+
+  <!-- Launch judge node -->
+  <node pkg="hw06_crist" type="time_judge.py" name="time_judge_node" output="screen" />
+
+</launch>

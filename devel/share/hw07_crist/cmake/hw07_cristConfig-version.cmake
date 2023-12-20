@@ -1,0 +1,1 @@
+/home/lo/catkin_ws/devel/.private/hw07_crist/share/hw07_crist/cmake/hw07_cristConfig-version.cmake

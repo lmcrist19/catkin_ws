@@ -1,0 +1,5 @@
+hw04_crist
+/home/lo/catkin_ws/devel/.private/hw04_crist/cmake.lock /home/lo/catkin_ws/devel/./cmake.lock
+/home/lo/catkin_ws/devel/.private/hw04_crist/share/hw04_crist/cmake/hw04_cristConfig-version.cmake /home/lo/catkin_ws/devel/share/hw04_crist/cmake/hw04_cristConfig-version.cmake
+/home/lo/catkin_ws/devel/.private/hw04_crist/share/hw04_crist/cmake/hw04_cristConfig.cmake /home/lo/catkin_ws/devel/share/hw04_crist/cmake/hw04_cristConfig.cmake
+/home/lo/catkin_ws/devel/.private/hw04_crist/lib/pkgconfig/hw04_crist.pc /home/lo/catkin_ws/devel/lib/pkgconfig/hw04_crist.pc

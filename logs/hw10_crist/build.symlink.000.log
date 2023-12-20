@@ -1,0 +1,10 @@
+Symlinking /home/lo/catkin_ws/devel/share/hw10_crist/docs/SelfDriveDynCfgConfig-usage.dox
+Symlinking /home/lo/catkin_ws/devel/share/hw10_crist/docs/SelfDriveDynCfgConfig.wikidoc
+Symlinking /home/lo/catkin_ws/devel/share/hw10_crist/docs/SelfDriveDynCfgConfig.dox
+Symlinking /home/lo/catkin_ws/devel/share/hw10_crist/cmake/hw10_cristConfig.cmake
+Symlinking /home/lo/catkin_ws/devel/share/hw10_crist/cmake/hw10_cristConfig-version.cmake
+Symlinking /home/lo/catkin_ws/devel/include/hw10_crist/SelfDriveDynCfgConfig.h
+Symlinking /home/lo/catkin_ws/devel/lib/python3/dist-packages/hw10_crist/__init__.py
+Symlinking /home/lo/catkin_ws/devel/lib/python3/dist-packages/hw10_crist/cfg/__init__.py
+Symlinking /home/lo/catkin_ws/devel/lib/python3/dist-packages/hw10_crist/cfg/SelfDriveDynCfgConfig.py
+Symlinking /home/lo/catkin_ws/devel/lib/pkgconfig/hw10_crist.pc

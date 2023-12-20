@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target hw09_crist_gencfg[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/RobotCenteringDynCfg.cfg: /home/lo/catkin_ws/devel/.private/hw09_crist/include/hw09_crist/RobotCenteringDynCfgConfig.h /home/lo/catkin_ws/devel/.private/hw09_crist/lib/python3/dist-packages/hw09_crist/cfg/RobotCenteringDynCfgConfig.py[0m
+Generating reconfiguration files for RobotCenteringDynCfg in hw09_crist
+Wrote header file in /home/lo/catkin_ws/devel/.private/hw09_crist/include/hw09_crist/RobotCenteringDynCfgConfig.h
+[100%] Built target hw09_crist_gencfg

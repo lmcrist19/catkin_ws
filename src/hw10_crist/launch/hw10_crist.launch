@@ -1,0 +1,25 @@
+<launch>
+
+  <!-- Load map -->
+  <param name="map_dir" value="$(find gazelle_sim_igvc)/map" />
+  <rosparam command="load"
+            file="$(find gazelle_sim_igvc)/map/igvc.yaml" />
+
+  <!-- Load robot -->
+  <rosparam command="load"
+            file="$(find gazelle_sim_igvc)/robot/ACTor.yaml" />
+
+
+  <!-- Gazelle Sim -->
+  <include file="$(find gazelle_sim)/launch/gazelle_sim.launch">
+    <arg name="show_rviz" value="false" />
+    <arg name="show_steering" default="true" />
+    <arg name="show_image_view" default="false" />
+    <arg name="show_dynamic_reconfigure" default="true" />
+  </include>
+
+   <!-- Launch Robot Centering Node -->
+   #  <node pkg="hw10_crist" type="self_drive.py" name="self_drive_node" output="screen" />
+
+
+</launch>

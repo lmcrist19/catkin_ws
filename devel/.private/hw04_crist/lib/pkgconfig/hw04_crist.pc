@@ -1,0 +1,8 @@
+prefix=/home/lo/catkin_ws/devel/.private/hw04_crist
+
+Name: hw04_crist
+Description: Description of hw04_crist
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~enable" : \b [bool] Enable min: False, default: False, max: True
+- \b "~red_offset" : \b [double] Red Offset min: -1.0, default: 1.0, max: 1.0
+- \b "~red_gain" : \b [double] Red Gain min: -2.0, default: -1.0, max: 2.0
+- \b "~blue_offset" : \b [double] Blue Offset min: -1.0, default: 1.0, max: 1.0
+- \b "~blue_gain" : \b [double] Blue Gain min: -2.0, default: 1.0, max: 2.0
+- \b "~green_offset" : \b [double] Green Offset min: -1.0, default: 0.0, max: 1.0
+- \b "~green_gain" : \b [double] Green Gain min: -2.0, default: 2.0, max: 2.0
+

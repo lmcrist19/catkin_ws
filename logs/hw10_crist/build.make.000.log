@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target hw10_crist_gencfg[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/SelfDriveDynCfg.cfg: /home/lo/catkin_ws/devel/.private/hw10_crist/include/hw10_crist/SelfDriveDynCfgConfig.h /home/lo/catkin_ws/devel/.private/hw10_crist/lib/python3/dist-packages/hw10_crist/cfg/SelfDriveDynCfgConfig.py[0m
+Generating reconfiguration files for SelfDriveDynCfg in hw10_crist
+Wrote header file in /home/lo/catkin_ws/devel/.private/hw10_crist/include/hw10_crist/SelfDriveDynCfgConfig.h
+[100%] Built target hw10_crist_gencfg

@@ -1,0 +1,1 @@
+/home/lo/catkin_ws/devel/.private/hw04_crist/lib/pkgconfig/hw04_crist.pc

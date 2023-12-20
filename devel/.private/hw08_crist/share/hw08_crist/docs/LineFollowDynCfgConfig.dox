@@ -1,0 +1,15 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~enable" : \b [bool] Enable min: False, default: False, max: True
+- \b "~gain" : \b [double] Gain min: 0.0, default: 1.7, max: 10.0
+- \b "~speed" : \b [double] Speed min: 0.0, default: 0.5, max: 5.0
+- \b "~frame_skip" : \b [int] Frame Skip min: 1, default: 4, max: 10
+- \b "~hue_low" : \b [int] Hue Low min: 0, default: 56, max: 179
+- \b "~hue_high" : \b [int] Hue High min: 0, default: 179, max: 179
+- \b "~sat_low" : \b [int] Sat Low min: 0, default: 109, max: 255
+- \b "~sat_high" : \b [int] Sat High min: 0, default: 169, max: 255
+- \b "~val_low" : \b [int] Value Low min: 0, default: 105, max: 255
+- \b "~val_high" : \b [int] Value High min: 0, default: 177, max: 255
+

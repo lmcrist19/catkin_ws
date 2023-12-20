@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lo/catkin_ws/devel/.private/hw10_crist/setup.sh

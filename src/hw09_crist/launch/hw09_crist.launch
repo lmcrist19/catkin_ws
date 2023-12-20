@@ -1,0 +1,28 @@
+<launch>
+
+  <!-- Load map -->
+  <param name="map_dir" value="$(find gazelle_sim_barrel_course)/map" />
+  <rosparam command="load"
+            file="$(find gazelle_sim_barrel_course)/map/barrel_course_lidar.yaml" />
+
+  <!-- Load robot -->
+  <rosparam command="load"
+            file="$(find gazelle_sim)/robot/basic_differential_circ.yaml" />
+
+
+  <!-- Gazelle Sim -->
+  <include file="$(find gazelle_sim)/launch/gazelle_sim.launch">
+    <arg name="show_rviz" value="false" />
+    <arg name="show_steering" default="false" />
+    <arg name="show_image_view" default="true" />
+    <arg name="show_dynamic_reconfigure" default="true" />
+  </include>
+
+   <!-- Launch Robot Centering Node -->
+   #  <node pkg="hw09_crist" type="robot_centering.py" name="robot_centering_node" output="screen" />
+
+   <!-- Launch Move Objects Node -->
+   #  <node pkg="hw09_crist" type="move_objects.py" name="move_objects_node" output="screen" />
+
+
+</launch>

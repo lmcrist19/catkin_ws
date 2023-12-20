@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~enable" : \b [bool] Enable min: False, default: False, max: True
+- \b "~record_max" : \b [bool] Record Max min: False, default: False, max: True
+- \b "~window" : \b [int] Window min: 0, default: 0, max: 5
+- \b "~gain" : \b [double] Gain min: 0.0, default: 1.0, max: 10.0
+

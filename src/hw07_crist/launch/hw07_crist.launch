@@ -1,0 +1,26 @@
+<launch>
+
+  <!-- Load map -->
+  <param name="map_dir" value="$(find gazelle_sim_color_zones)/map" />
+  <rosparam command="load"
+            file="$(find gazelle_sim_color_zones)/map/color_zones.yaml" />
+
+  <!-- Load robot -->
+  <rosparam command="load"
+            file="$(find gazelle_sim)/robot/basic_differential_circ.yaml" />
+
+
+  <!-- Gazelle Sim -->
+  <include file="$(find gazelle_sim)/launch/gazelle_sim.launch">
+    <arg name="show_rviz" value="false" />
+    <arg name="show_steering" default="false" />
+    <arg name="show_image_view" default="false" />
+    <arg name="show_dynamic_reconfigure" default="true" />
+  </include>
+
+   <!-- Launch line following node -->
+   <node pkg="hw07_crist" type="speed_control.py" name="speed_control_node" output="screen" />
+
+
+
+</launch>

@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="hw07_crist" pkg="hw07_crist" type="hw07_crist">
+  <param name="enable" type="bool" value="False" />
+  <param name="red_offset" type="double" value="1.0" />
+  <param name="red_gain" type="double" value="-1.0" />
+  <param name="blue_offset" type="double" value="1.0" />
+  <param name="blue_gain" type="double" value="1.0" />
+  <param name="green_offset" type="double" value="0.0" />
+  <param name="green_gain" type="double" value="2.0" />
+</node>
+\endverbatim
+

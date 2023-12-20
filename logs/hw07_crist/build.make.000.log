@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target hw07_crist_gencfg[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/SpeedSettingsDynCfg.cfg: /home/lo/catkin_ws/devel/.private/hw07_crist/include/hw07_crist/SpeedSettingsDynCfgConfig.h /home/lo/catkin_ws/devel/.private/hw07_crist/lib/python3/dist-packages/hw07_crist/cfg/SpeedSettingsDynCfgConfig.py[0m
+Generating reconfiguration files for SpeedSettingsDynCfg in hw07_crist
+Wrote header file in /home/lo/catkin_ws/devel/.private/hw07_crist/include/hw07_crist/SpeedSettingsDynCfgConfig.h
+[100%] Built target hw07_crist_gencfg

@@ -1,0 +1,1 @@
+/home/lo/catkin_ws/devel/.private/hw05_crist/share/hw05_crist/cmake/hw05_cristConfig.cmake

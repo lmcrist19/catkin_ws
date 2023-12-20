@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="hw10_crist" pkg="hw10_crist" type="hw10_crist">
+  <param name="enable" type="bool" value="False" />
+  <param name="record_max" type="bool" value="False" />
+  <param name="window" type="int" value="0" />
+  <param name="gain" type="double" value="1.0" />
+</node>
+\endverbatim
+

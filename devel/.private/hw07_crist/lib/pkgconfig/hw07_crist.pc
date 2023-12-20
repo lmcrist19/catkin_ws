@@ -1,0 +1,8 @@
+prefix=/home/lo/catkin_ws/devel/.private/hw07_crist
+
+Name: hw07_crist
+Description: Description of hw07_crist
+Version: 0.0.0
+Cflags: -I/home/lo/catkin_ws/devel/.private/hw07_crist/include
+Libs: -L${prefix}/lib 
+Requires: 

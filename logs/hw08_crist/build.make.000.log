@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target hw08_crist_gencfg[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/LineFollowDynCfg.cfg: /home/lo/catkin_ws/devel/.private/hw08_crist/include/hw08_crist/LineFollowDynCfgConfig.h /home/lo/catkin_ws/devel/.private/hw08_crist/lib/python3/dist-packages/hw08_crist/cfg/LineFollowDynCfgConfig.py[0m
+Generating reconfiguration files for LineFollowDynCfg in hw08_crist
+Wrote header file in /home/lo/catkin_ws/devel/.private/hw08_crist/include/hw08_crist/LineFollowDynCfgConfig.h
+[100%] Built target hw08_crist_gencfg

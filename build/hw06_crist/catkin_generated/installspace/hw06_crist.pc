@@ -1,0 +1,8 @@
+prefix=/home/lo/catkin_ws/install
+
+Name: hw06_crist
+Description: Description of hw06_crist
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
